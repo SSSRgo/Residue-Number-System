@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Parameters
 N = 7  # Number of roots of unity
 x = 1  # Fixed x value for calculation
-delta_x_range = np.arange(-10, 11)  # Range of delta_x values
+delta_x_range = np.arange(-10, 10.1, 0.1)  # Range of delta_x values
 
 # Define theta values for the N roots of unity
 theta = 2 * np.pi * np.arange(N) / N
@@ -20,7 +20,7 @@ for delta_x in delta_x_range:
 
 # Plotting the similarity kernel
 plt.figure(figsize=(10, 5))
-plt.plot(delta_x_range, similarities, marker='o')
+plt.plot(delta_x_range, similarities)
 plt.title("Similarity Kernel for N=7")
 plt.xlabel(r"$\Delta x$")
 plt.ylabel(r"$z(x) \cdot z(x + \Delta x)$")
