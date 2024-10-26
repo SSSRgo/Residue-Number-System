@@ -46,5 +46,3 @@ The similarity kernel plot shows the periodic similarity pattern of high-dimensi
    \text{Similarity}(x, x + \Delta x) = z(x) \cdot z(x + \Delta x)
    $$
 
-Let's calculate this similarity kernel for several values of \( \Delta x \) in the range of \( -10 \) to \( 10 \). I will compute this and display the result.
-
