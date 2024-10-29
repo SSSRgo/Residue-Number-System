@@ -3,12 +3,8 @@ Residue numbers system applications and implementation in neuroscience. High-dim
 ## HD-Residue-Number-Representation
 
 ### Overview
-This repository implements high-dimensional (HD) representations for residue numbers using modular arithmetic on the unit circle, derived from the roots of unity. The approach is inspired by recent research (Kymn C. et al., 2023) and provides an efficient method for encoding cyclic data in high-dimensional space.
+This repository implements high-dimensional (HD) representations for residue numbers using modular arithmetic, derived from the roots of unity. The approach is inspired by recent research (Kymn C. et al., 2023) and provides an efficient method for encoding cyclic data in high-dimensional space.
 
-### Features
-- High-dimensional representation for residue numbers
-- Similarity kernel computation for modular comparisons
-- Visualization of similarity structure based on residue computations
 
 ### Example
 The similarity kernel plot shows the periodic similarity pattern of high-dimensional residue representations.
